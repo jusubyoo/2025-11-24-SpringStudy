@@ -1,0 +1,24 @@
+package com.sist.mapper;
+import java.util.*;
+
+import org.apache.ibatis.annotations.Result;
+import org.apache.ibatis.annotations.Results;
+import org.apache.ibatis.annotations.Select;
+
+import com.sist.vo.*;
+
+public interface EmpMapper {
+	@Select("SELECT empno,ename,job,sal,TO_CHAR(hiredate,'YYYY-MM-DD') as dbday "
+			+ "FROM emp ORDER BY empno")
+	public List<EmpVO> empListData();
+	
+	@Results({
+		@Result(property = "dvo.dname" , column = "dname"),
+		@Result(property = "dvo.loc" , column = "loc")
+	})
+	@Select("SELECT empno,ename,job,sal,TO_CHAR(hiredate,'YYYY-MM-DD') as dbday,dname,loc "
+			+ "FROM emp e,dept d "
+			+ "WHERE e.deptno=d.deptno "
+			+ "AND empno=#{empno}")
+	public EmpVO empDetailData(int empno);
+}

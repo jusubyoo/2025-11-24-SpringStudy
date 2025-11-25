@@ -1,0 +1,8 @@
+.metadata/
+.plugins/
+.recommenders/
+SpringAnnotationProject/target/ SpringAnnotationProject_1/target/ SpringAnnotationProject_2/target/ SpringContainer/target/ SpringDIProject/target/ SpringDIProject_1/target/ SpringDIProject_2/target/ SpringDIProject_3/target/ SpringDIProject_4/target/ SpringDIProject_5/target/ SpringFirstStudy/target/
+*/bin/
+Servers/.settings/ SpringAnnotationProject/.settings/ SpringAnnotationProject_1/.settings/ SpringAnnotationProject_2/.settings/ SpringContainer/.settings/ SpringDIProject/.settings/ SpringDIProject_1/.settings/ SpringDIProject_2/.settings/ SpringDIProject_3/.settings/ SpringDIProject_4/.settings/ SpringDIProject_5/.settings/ SpringFirstStudy/.settings/
+SpringAnnotationProject/.classpath SpringAnnotationProject_1/.classpath SpringAnnotationProject_2/.classpath SpringContainer/.classpath SpringDIProject/.classpath SpringDIProject_1/.classpath SpringDIProject_2/.classpath SpringDIProject_3/.classpath SpringDIProject_4/.classpath SpringDIProject_5/.classpath SpringFirstStudy/.classpath
+Servers/.project SpringAnnotationProject/.project SpringAnnotationProject_1/.project SpringAnnotationProject_2/.project SpringContainer/.project SpringDIProject/.project SpringDIProject_1/.project SpringDIProject_2/.project SpringDIProject_3/.project SpringDIProject_4/.project SpringDIProject_5/.project SpringFirstStudy/.project
